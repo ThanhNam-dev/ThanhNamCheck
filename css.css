@@ -1,0 +1,230 @@
+.pic-text-p {
+    margin-right: 50%;
+    color: white;
+}
+
+.navbar-nav.active:hover {
+    color: black;
+}
+
+.navbar-nav.nav-a:hover {
+    color: orange;
+}
+
+div.backgroud-pic h2 {
+    margin-left: 1rem;
+}
+
+a.text-bin:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+a.text-warning {
+    margin-bottom: 0.25rem;
+}
+
+.text-bin {
+    color: black;
+    text-decoration: none;
+}
+
+div.backgroud-pic p {
+    margin-left: 1rem;
+}
+
+div.backgroud-pic button {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text-go-top {
+    margin-top: 5rem;
+}
+
+.backgroud-pic {
+    background-image: url('img/mau-nha-cap-4-nong-thon-dep-anh-6.png');
+    width: 100%;
+    /* height: 350px; */
+    display: inline-block;
+}
+
+.backgroud-pic-bottom {
+    background-image: url('img/red-and-black-theme-zo8.jpg');
+    width: 100%;
+    /* height: 350px; */
+    display: inline-block;
+}
+
+div.backgroud-pic-bottom button {
+    margin-bottom: 4rem;
+}
+
+.for-i {
+    text-align: center;
+    background: rgb(216, 214, 212);
+}
+
+.for-i-2 {
+    text-align: center;
+    background: rgb(201, 195, 191);
+}
+
+.for-i:hover {
+    text-align: center;
+    background: rgb(201, 195, 191);
+}
+
+.for-i-2:hover {
+    text-align: center;
+    background: rgb(216, 214, 212);
+}
+
+.for-i p {
+    margin-bottom: 25%;
+}
+
+.fa-home {
+    margin-top: 25%;
+    color: gray;
+    font-size: 80px;
+}
+
+.fa-book-open {
+    margin-top: 25%;
+    color: gray;
+    font-size: 80px;
+}
+
+.fa-cut {
+    margin-top: 25%;
+    color: gray;
+    font-size: 80px;
+}
+
+.fa-map {
+    margin-top: 25%;
+    color: gray;
+    font-size: 80px;
+}
+
+.slider-ima {
+    width: 100%;
+    height: auto;
+    float: inherit;
+}
+
+img.tui-imam {
+    width: 100%;
+    height: auto;
+}
+
+.pxi {
+    margin: 2em 0;
+    clear: both;
+}
+
+div.spann {
+    width: 100px;
+    height: 100px;
+    border: white solid 5px;
+}
+
+div.spann a:hover {
+    background: white;
+    color: black;
+    border-radius: 50%;
+}
+
+.text-ima-box {
+    background-image: url(img/red-and-black-theme-zo8.jpg);
+}
+
+div.spann a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    line-height: 250%;
+    font-size: 2rem;
+    color: white;
+}
+
+.line-box {
+    margin-top: 2%;
+}
+
+.div-in {
+    margin-left: 8%;
+    margin-right: 8%;
+    float: left
+}
+
+.div-off {
+    margin-left: 8%;
+}
+
+div#menu-item {
+    position: absolute;
+    right: 0;
+}
+
+.btn-primary {
+    background: gray!important;
+    border-color: gray!important;
+}
+
+.btn-primary:hover {
+    background: orange!important;
+    border-color: orange!important;
+}
+
+.footer {
+    margin-top: 0.25rem;
+    /* padding: 1rem 0; */
+    color: #fff;
+    font-size: 1.2rem;
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    .div-in {
+        /* width: 100%; */
+        height: 100%;
+        /* margin: 0 auto; */
+        float: left;
+    }
+    .line-box {
+        margin-top: 5%;
+        height: 10%;
+        width: 10%;
+        margin-left: 2%;
+    }
+    .div-in2 {
+        margin-left: 25%;
+    }
+    .div-out2 {
+        margin-left: 25%;
+        /* margin-right: ; */
+    }
+    .col-md-hide {
+        visibility: hidden;
+    }
+    div#menu-item {
+        position: inherit;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .div-var {
+        margin-left: 37%;
+    }
+    .line-it {
+        visibility: hidden;
+    }
+    div#menu-item {
+        position: inherit;
+    }
+}
